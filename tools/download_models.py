@@ -48,4 +48,6 @@ if __name__ == "__main__":
     print("Trying to fetch %s (%s) from Google Drive..." % (destination, link))
     download_file_from_google_drive(file_id, destination)
     os.system("unzip %s -d models" % destination)
+    os.system("rm %s" % destination)
+    print("%s removed." % destination)
 
