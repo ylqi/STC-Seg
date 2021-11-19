@@ -53,7 +53,7 @@ python tools/download_models.py
 python tools/download_examples.py
 ```
 
-3. Run the demo with those examples (in `input` folder):
+3. Run the demo with those examples (in `inputs` folder):
 ```bash
 ./run.sh inputs
 ```
