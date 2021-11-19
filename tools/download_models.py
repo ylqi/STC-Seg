@@ -9,7 +9,6 @@ def progress_bar(some_iter):
         return some_iter
 
 def download_file_from_google_drive(id, destination):
-    print("Trying to fetch {}...".format(destination))
 
     def get_confirm_token(response):
         for key, value in response.cookies.items():
@@ -41,13 +40,12 @@ def download_file_from_google_drive(id, destination):
 
 
 if __name__ == "__main__":
+    link = "https://drive.google.com/file/d/17VaIiWeKeCpabnXYPCmSf19CEr5WsG1G/view?usp=sharing"
     # TAKE ID FROM SHAREABLE LINK
-    file_id = "17VaIiWeKeCpabnXYPCmSf19CEr5WsG1G"
-    print("Downloading model (file id: %s) from Google Drive..." % file_id)
+    file_id = link.split('/')[-2]
     # DESTINATION FILE ON YOUR DISK
     destination = "models.zip"
+    print("Trying to fetch %s (%s) from Google Drive..." % (destination, link))
     download_file_from_google_drive(file_id, destination)
     os.system("unzip %s -d models" % destination)
-
-    # Download link: https://drive.google.com/file/d/17VaIiWeKeCpabnXYPCmSf19CEr5WsG1G/view?usp=sharing
 
