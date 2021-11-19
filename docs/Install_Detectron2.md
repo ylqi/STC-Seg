@@ -7,7 +7,7 @@ Please use Detectron2 with commit id [9eb4831](https://github.com/facebookresear
 1. Clone the source code from github:
 
 ```bash
-git clone https://github.com/facebookresearch/detectron2/tree/main/docs
+git clone https://github.com/facebookresearch/detectron2.git
 ```
 
 2. Switch to the [old version](https://github.com/facebookresearch/detectron2/commit/9eb4831f742ae6a13b8edb61d07b619392fb6543) with commit id **9eb4831**:
