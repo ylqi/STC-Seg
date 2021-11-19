@@ -18,7 +18,7 @@ conda activate STC-Seg-pytorch
 ```
 
 
-First use the `git clone` command to download **Detectron2** source code from the official github repository.
+Use the `git clone` command to download **Detectron2** source code from the official github repository.
 Then switch the **Detectron2** into the old version with commit id **9eb4831** and install it:
 ```bash
 cd detectron2
@@ -26,7 +26,7 @@ git checkout -f 9eb4831
 cd ..
 python -m pip install -e detectron2
 ```
-
+More details please see [Here](docs/Install_Detectron2.md)
 
 ## Installation
 
@@ -66,9 +66,11 @@ inputs
 └── ...
 ```
 
-**[Note]** You can found some examples in our `inputs` folder.
+   **[Note]** You can found some examples in our `inputs` folder.
 
 3. Run the demo with:
 ```bash
 ./run.sh inputs
 ```
+
+4. Results will be saved in `results` folder.
