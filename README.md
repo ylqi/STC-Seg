@@ -26,7 +26,7 @@ git checkout -f 9eb4831
 cd ..
 python -m pip install -e detectron2
 ```
-More details please see [Here](docs/Install_Detectron2.md)
+More details please see [docs/Install_Detectron2.md](docs/Install_Detectron2.md)
 
 ## Installation
 
