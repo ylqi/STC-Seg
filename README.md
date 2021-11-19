@@ -13,8 +13,8 @@ This repo was tested with Python 3.7.10, PyTorch 1.4.0, cuDNN 7.6, and CUDA 10.0
 
 You can use anaconda or miniconda to install those dependencies:
 ```bach
-conda create -n Detectron2-STC-Seg python=3.7 pytorch=1.4 torchvision opencv cudatoolkit=10.0
-conda activate Detectron2-STC-Seg
+conda create -n STC-Seg-pytorch python=3.7 pytorch=1.4 torchvision opencv cudatoolkit=10.0
+conda activate STC-Seg-pytorch
 ```
 
 
