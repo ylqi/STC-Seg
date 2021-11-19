@@ -40,7 +40,7 @@ def download_file_from_google_drive(id, destination):
 
 
 if __name__ == "__main__":
-    link = "https://drive.google.com/file/d/1VyOmP9tx5r89lRHLrBPWJueYu_zK4FE6/view?usp=sharing"
+    link = "https://drive.google.com/file/d/1g1qH9kZadW4X1XSZbrY-8s42jN0UlUo7/view?usp=sharing"
     # TAKE ID FROM SHAREABLE LINK
     file_id = link.split('/')[-2]
     # DESTINATION FILE ON YOUR DISK
