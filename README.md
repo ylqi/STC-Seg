@@ -47,28 +47,13 @@ If any error occurs in STC-Seg installation, please remove the `build` folder be
 python tools/download_models.py
 ```
 
-2. Please put video frame sequences in an input folder (e.g. `inputs`):
+2. Please download examples of video frame sequences:
 
 ```shell
-inputs
-├── Sequence_1
-│   ├── Frame_1.png
-│   ├── Frame_2.png
-│   ├── Frame_3.png
-│   └── ...
-│
-├── Sequence_2
-│   ├── Frame_1.png
-│   ├── Frame_2.png
-│   ├── Frame_3.png
-│   └── ...
-│
-└── ...
+python tools/download_examples.py
 ```
 
-   **[Note]** You can found some examples in our `inputs` folder.
-
-3. Run the demo with:
+3. Run the demo with those examples (in `input` folder):
 ```bash
 ./run.sh inputs
 ```
