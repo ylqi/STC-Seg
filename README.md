@@ -53,9 +53,9 @@ python tools/download_models.py
 python tools/download_examples.py
 ```
 
-3. Run the demo with those examples (in `inputs` folder):
+3. Run the demo with those examples (under `inputs` folder):
 ```bash
-./run.sh inputs
+bash run.sh inputs
 ```
 
 4. Results will be saved in `results` folder.
