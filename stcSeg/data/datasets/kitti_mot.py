@@ -86,7 +86,7 @@ def get_kitti_mot_dicts(images_folder, annots_folder, is_train, train_percentage
         annot_files.append(os.path.join(annots_folder, "%04d.txt" % int(fields[0])))
 
     # --------------------------- Use all to train -------------------------
-    if is_train and re.search("full", name)::
+    if is_train and re.search("full", name):
         annot_files = sorted(glob(os.path.join(annots_folder, "*.txt")))
     # --------------------------- Use all to train -------------------------
 
