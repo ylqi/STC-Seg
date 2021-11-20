@@ -58,4 +58,4 @@ python tools/download_examples.py
 bash run.sh inputs
 ```
 
-4. Results will be saved in `results` folder.
+4. Results will be saved under `results` folder.
