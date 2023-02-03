@@ -2,6 +2,7 @@
 The code for ["Solve the Puzzle of Instance Segmentation in Videos: A Weakly Supervised Framework with Spatio-Temporal Collaboration"](https://ieeexplore.ieee.org/abstract/document/9869635/) 
 Published in: IEEE **T**ransactions on **C**ircuits and **S**ystems for **V**ideo **T**echnology ( Volume: 33, Issue: 1, January 2023) 
 
+![image](img.png)
 
 ## Dependencies
 
